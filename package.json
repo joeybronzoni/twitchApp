@@ -1,0 +1,29 @@
+{
+  "name": "tinda",
+  "version": "1.0.0",
+  "description": "findout who is streaming on Twitch.tv",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:josephskrzysowski/twitchApp.git"
+  },
+  "keywords": [
+    "twitch, tv, streaming"
+  ],
+  "author": "Joseph Skrzysowski",
+  "license": "#",
+  "bugs": {
+    "url": "git@github.com:josephskrzysowski/twitchApp.git"
+  },
+  "homepage": "#"
+}
