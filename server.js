@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use("/assets", express.static(path.join(__dirname + '/assets')));
-app.use("/javascript", express.static(path.join(__dirname + '/javascript')));
+//app.use("/javascript", express.static(path.join(__dirname + '/javascript')));
 
 
 
