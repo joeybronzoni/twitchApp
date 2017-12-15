@@ -1,5 +1,14 @@
 $(document).ready(function() {
   console.log("ready!");
+  // $('#myTab a').click(function (e) {
+//     e.preventDefault();
+//     $(this).tab('show');
+// })
+
+
+  // jQuery(function () {
+  //       jQuery('#myTab a:last').tab('show')
+  //   })
   var data = {};
   $("#searchButton").on("click", function(){
     var searchTerm = $("#searchTerm").val();

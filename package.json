@@ -1,5 +1,5 @@
 {
-  "name": "tinda",
+  "name": "twitchee",
   "version": "1.0.0",
   "description": "findout who is streaming on Twitch.tv",
   "main": "server.js",
