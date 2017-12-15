@@ -1,3 +1,25 @@
+.archPic{
+  height:0px;
+  width:800px;
+  background-image:url("images/ArchLinuxYakuake.jpg") !important;
+  padding-bottom:20px;
+  margin-bottom:20px;
+  position:relative;
+  right:100px;
+  bottom:200px;
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    border: 4px double teal;
+}
+.picHolder{
+  height:0px;
+}
+
 #inputDiv{
   padding-top:10px;
   padding-bottom:10px;
@@ -7,9 +29,10 @@
 .mainJumbo {
   position:relative;
   left:400px;
+  bottom:200px;
   height:100%;
   width:400px;
-
+  border: 4px double teal;
   text-align: center;  /* align the inline(-block) elements horizontally */
   font: 0/0 a;         /* remove the gap between inline(-block) elements */
 }

@@ -14,6 +14,10 @@ app.use("/javascript", express.static(path.join(__dirname + '/javascript')));
 app.use("/assets", express.static(path.join(__dirname + '/assets')));
 
 
+
+
+
+
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
