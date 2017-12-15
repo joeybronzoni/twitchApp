@@ -1,0 +1,33 @@
+#inputDiv{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+
+.mainJumbo {
+  position:relative;
+  left:400px;
+  height:100%;
+  width:400px;
+
+  text-align: center;  /* align the inline(-block) elements horizontally */
+  font: 0/0 a;         /* remove the gap between inline(-block) elements */
+}
+
+.mainJumbo:before {    /* create a full-height inline block pseudo=element */
+  content: " ";
+  display: inline-block;
+  vertical-align: middle;    /* vertical alignment of the inline element */
+  height: 100%;
+}
+
+.mainJumbo > .container {
+  max-width: 400px;
+
+  display: inline-block;
+  vertical-align: middle;  /* vertical alignment of the inline element */
+                           /* reset the font property */
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+

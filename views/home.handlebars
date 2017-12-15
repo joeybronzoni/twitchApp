@@ -1,36 +1,38 @@
 
-    <div class="jumbotron">
+    <div class="jumbotron vertical-center mainJumbo">
       <div class="container">
-        
-	    <ul class="nav nav-tabs" id="#myTab">
-		<li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-		<li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-		<li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-	    </ul>
-	    
-	    <div class="tab-content">
-		<div id="home" class="tab-pane fade in active">
-		    <h3>HOME</h3>
-		    <p>Somelkkj content.</p>
-		</div>
-		<div id="menu1" class="tab-pane fade">
-		    <h3>Menu 1</h3>
-		    <p>Some clkjlkjlkontent in menu 1.</p>
-		</div>
-		<div id="menu2" class="tab-pane fade">
-		    <h3>Menu 2</h3>
-		    <p>Some content i?/.,/.,/.,/';k'pk;n menu 2.</p>
-		</div>
-	    </div>
+        <ul class="nav nav-tabs" id="#myTab">
+	  <li class="active"><a data-toggle="tab" href="#allStreams">All</a></li>
+	  <li><a data-toggle="tab" href="#onlineStreams">Online</a></li>
+	  <li><a data-toggle="tab" href="#offlineStreams">Offline</a></li>
+	</ul>
+        <div class="container" id="inputDiv">
+	  <input id="searchTerm" type="text" placeholder="Search Twitch" required>
+          <input class="buttons" id="searchButton" type="button" value="Search">
+        </div>
+	<div class="tab-content">
+	  <div id="allStreams" class="tab-pane fade in active">
+	    <h3>allStreamersChannelNameHere</h3>
+            <p>streamersLogo</p>
+	    <p>isStreamerBroadcastingNow?</p>
+	  </div>
+	  <div id="onlineStreams" class="tab-pane fade">
+	    <h3>onlineStreamsersChannelNameHere</h3>
+            <p>streamersLogo</p>
+	    <p>1.</p>
+	  </div>
+	  <div id="offlineStreams" class="tab-pane fade">
+	    <h3>offineStreamersChannelNamehere</h3>
+            <p>streamersLogo</p>
+	    <p>2.</p>
+	  </div>
 	</div>
-	<div class="container">
-	    <input id="searchTerm" type="text" placeholder="Search Twitch" required>
-	    <input class="buttons" id="searchButton" type="button" value="Search">
-	</div>
-
+  
+      </div>
+      
     </div>
 
-
+    
 
 
 
