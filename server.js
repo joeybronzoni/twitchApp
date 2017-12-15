@@ -31,22 +31,6 @@ app.set("view engine", "handlebars");
 
 
 
-// //Handlebars
-// // Set up handlebars view engine
-// app.engine('handlebars', hbs({defaultLayout:'main', extname: ".handlebars"}));
-// //app.engine('handlebars', hbs.engine)
-// app.set('view engine', 'handlebars');
-// app.set('views', path.join(__dirname, 'views/'));
-//app.use(express.static('public'));
-//Body Parser
-//app.use(bodyParser.json());
-//app.use(bodyParser.urlencoded({extended:false}));
-
-
-
-
-
-
 /// error handlers
 // development error handler
 // will print stacktrace
