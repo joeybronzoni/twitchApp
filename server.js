@@ -60,9 +60,10 @@ app.get('/', (req, res) => {
  res.render("home");
 });
 
-app.get('/getVideos', req, res) => {
+
+app.get('/getVideos', (req, res) => {
   console.log("This isi the /getVideos route");
-}
+});
 
 
 
