@@ -1,0 +1,50 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+//  $(document).ready(function(){
+//     $(".nav-tabs a").click(function(){
+//         $(this).tab('show');
+//     });
+//     $('.nav-tabs a').on('shown.bs.tab', function(event){
+//         var x = $(event.target).text();         // active tab
+//         var y = $(event.relatedTarget).text();  // previous tab
+//         $(".act span").text(x);
+//         $(".prev span").text(y);
+//     });
+// });
+
+
+  // $('#myTab a').click(function (e) {
+//     e.preventDefault();
+//     $(this).tab('show');
+// })
+
+
+  // jQuery(function () {
+  //       jQuery('#myTab a:last').tab('show')
+  //   })
+
+
+
+
+
+//});
+/*$.ajax({
+      url: url,
+      type: "GET",
+      contentType: "application/json; charset=utf-8",
+//      async: false,
+      datatype: "json",
+      data: function(data, status, jqXHR) {
+        console.log(data);
+      },
+    })
+      .done(function(){
+	console.log("Success");
+      })
+      .fail(function(){
+	console.log("Error");
+      })
+      .always(function(){
+	console.log("Complete");
+      });
+*/

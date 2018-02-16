@@ -2,11 +2,6 @@ $(document).ready(function() {
   console.log("ready!");
 
 
-
-
-
-
-
 var streams = [
   "freecodecamp",
   "storbeck",
@@ -20,15 +15,16 @@ var streams = [
   "CODZOMBIES",
   "CODZOMBIES"
 ];
-  
+  console.log("THis is the streams: ", streams);
 //jquery run
   
  //-------------------------------------------From the fcc tutorial
     function search () {
      // $(".online, .offline, .unavailable").empty();
       //showAll();  
-      var searchTerm = $(".searchTerm").val();
+      var searchTerm = $("#searchTerm").val();
       var user = searchQuery.replace(/[^A-Z0-9_]/ig, "");
+      console.log("This is the user: ", user);
       $.ajax({
         url: "https://api.twitch.tv/kraken/streams/" + user,
         dataType: "jsonp",
